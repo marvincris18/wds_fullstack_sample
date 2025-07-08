@@ -1,0 +1,30 @@
+{
+  "name": "wds_fullstack_sample",
+  "version": "1.0.0",
+  "description": "practice fullstack web development with nodejs, express, react, and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvincris18/wds_fullstack_sample.git"
+  },
+  "keywords": [],
+  "author": "marvin cris andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvincris18/wds_fullstack_sample/issues"
+  },
+  "homepage": "https://github.com/marvincris18/wds_fullstack_sample#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.16.2"
+  },
+  "devDependencies": {
+    "dotenv": "^17.1.0"
+  }
+}
